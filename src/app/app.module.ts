@@ -13,7 +13,7 @@ import { ContainsPipe } from './contains.pipe';
 import { HighlightDirective } from './highlight.directive';
 //import { CategProductsComponent } from './Composants/categ-products/categ-products.component';
 import { NotfoundComponent } from './notfound/notfound.component';
-import { DetailscatComponent } from './detailscat/detailscat.component';
+
 
 
 @NgModule({
@@ -40,6 +40,7 @@ import { DetailscatComponent } from './detailscat/detailscat.component';
   bootstrap: [AppComponent]
 })
 export class AppModule { }import { FormsModule } from '@angular/forms';
+import { DetailscatComponent } from './detailscat/detailscat.component';
 {}
 
 
