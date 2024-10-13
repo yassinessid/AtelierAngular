@@ -26,13 +26,14 @@ export class ListCategoriesComponent
     {"id":6,"title":"Produits voiture", "image":"assets/images/produits_nettoyages.jpg",
     "description":"Produits voiture","available":false},
     ]
-    
+
     titre : string = "";
 
     test(x:string){
-      
+
       alert(x)
     }
+
     
 
 }

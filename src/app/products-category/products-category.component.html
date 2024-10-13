@@ -1,0 +1,24 @@
+<input type="text" name="search" id="search">
+<div class="container">
+  <div class="row">
+    <div class="form-group">
+
+    </div>
+    <div class="col-md-4" style="margin-bottom: 20px;" *ngFor="let prod of prod" appHighlight>
+
+
+          <img src={{prod.image}} alt={{prod.name}}
+              class="img-fluid h-50 w-75"
+
+             >
+          <h3>{{prod.name|uppercase}}</h3>
+          <h3>{{prod.price}}</h3>
+
+
+          <ng-template #alt><p  style="color: red;">Catégorie non disponible</p></ng-template>
+
+      </div>
+
+  </div>
+
+</div>

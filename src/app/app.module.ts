@@ -13,6 +13,7 @@ import { ContainsPipe } from './contains.pipe';
 import { HighlightDirective } from './highlight.directive';
 //import { CategProductsComponent } from './Composants/categ-products/categ-products.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ProductsCategoryComponent } from './products-category/products-category.component';
 
 
 
@@ -28,7 +29,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
     ContainsPipe,
     HighlightDirective,
     NotfoundComponent,
-    DetailscatComponent
+    ProductsCategoryComponent
 
   ],
   imports: [
@@ -39,8 +40,10 @@ import { NotfoundComponent } from './notfound/notfound.component';
   providers: [],
   bootstrap: [AppComponent]
 })
+
+
 export class AppModule { }import { FormsModule } from '@angular/forms';
-import { DetailscatComponent } from './detailscat/detailscat.component';
+
 {}
 
 
